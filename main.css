@@ -1,0 +1,123 @@
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+}
+
+
+.navbar{
+  background-color: #800000 !important;
+}
+.nav-item a {
+font-family: 'Lato', sans-serif;
+    color: 	#EEE8AA !important;
+}
+
+.navbar-nav{
+  font-size: 25px !important;
+}
+
+.navbar-brand{
+  font-size: 1.5rem;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.custom-toggler.navbar-toggler {
+    border-color: #ae0000;
+}
+
+
+
+.jumbotron{
+    overflow-x: hidden;
+    background-image: url(Pic2.jpg);
+    background-repeat: no-repeat;
+  background-size:cover;
+    overflow-x: hidden;
+
+
+
+}
+
+
+.display-4{
+  font-size: 7rem;
+  font-family: 'Lato', sans-serif;
+  color: #800000;
+
+}
+
+.lead{
+  font-size: 2rem;
+  font-family: 'Lato', sans-serif;
+    color: #340000;
+
+}
+.card{
+  border-color: white !important;
+}
+.card-body{
+  height: 0px !important;
+
+}
+.card-title{
+  height: 0px !important;
+}
+
+.social{
+  background-color: #dfd0c0 !important;
+}
+
+#title{
+  font-size: 3rem;
+  font-family: 'Lato', sans-serif;
+  color: #800000;
+}
+
+#name{
+  font-size: 1.75rem;
+  font-family: 'Lato', sans-serif;
+
+}
+
+#phone{
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+
+      .display-4{
+          font-size: 4rem;
+      }
+
+    }
+
+    @media only screen and (max-width: 480px) {
+
+
+
+      .display-4{
+          font-size: 3rem;
+      }
+      .lead{
+        font-size: 1.5rem;
+      }
+
+
+
+    }
+
+    @media screen and (device-aspect-ratio: 40/71) {
+
+      .display-4{
+          font-size: 3rem;
+      }
+
+
+
+
+
+
+    }
