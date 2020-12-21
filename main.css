@@ -34,7 +34,7 @@ font-family: 'Lato', sans-serif;
 
 
 
-.jumbotron{
+#home{
     overflow-x: hidden;
     background-image: url(Pic2.jpg);
     background-repeat: no-repeat;
@@ -46,10 +46,18 @@ font-family: 'Lato', sans-serif;
 }
 
 
-.display-4{
+#mainTitle{
   font-size: 7rem;
   font-family: 'Lato', sans-serif;
   color: #800000;
+
+}
+
+#subTitle{
+  font-size: 3rem;
+  font-family: 'Lato', sans-serif;
+  color: #800000;
+  text-decoration: underline;
 
 }
 
@@ -58,6 +66,27 @@ font-family: 'Lato', sans-serif;
   font-family: 'Lato', sans-serif;
     color: #340000;
 
+}
+
+hr{
+   border-width: 3px;
+   background-color: black;
+}
+
+.pull-right{
+  height: auto;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+background-size:cover;
+
+}
+
+
+
+#sub{
+  font-size: 2rem;
+  font-family: 'Lato', sans-serif;
+    color: #340000;
 }
 .card{
   border-color: white !important;
@@ -92,8 +121,11 @@ font-family: 'Lato', sans-serif;
 
 @media only screen and (max-width: 768px) {
 
-      .display-4{
+      #mainTitle{
           font-size: 4rem;
+      }
+      #subTitle{
+        font-size: 3rem;
       }
 
     }
@@ -102,10 +134,16 @@ font-family: 'Lato', sans-serif;
 
 
 
-      .display-4{
+      #mainTitle{
           font-size: 3rem;
       }
+      #subTitle{
+        font-size: 3rem;
+      }
       .lead{
+        font-size: 1.5rem;
+      }
+      #sub{
         font-size: 1.5rem;
       }
 
@@ -115,8 +153,11 @@ font-family: 'Lato', sans-serif;
 
     @media screen and (device-aspect-ratio: 40/71) {
 
-      .display-4{
+    #mainTitle{
           font-size: 3rem;
+      }
+      #subTitle{
+        font-size: 3rem;
       }
 
 
